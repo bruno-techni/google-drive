@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/aside.css">
+    <link rel="stylesheet" href="./style/main.css">
     <link rel="icon" href="./assets/icon.png">
     <title>Google drive</title>
 
@@ -48,28 +49,63 @@
             <img src="./assets/user.png" alt="user" id="user-logo">
         </div>
     </header>
-    <aside class="left-aside">
-        <button id="new-button">Nowy</button>
-        <br>
+    <div class="layout">
 
-        <nav>
-            <button>
-                <img src="./assets/home.svg" alt="home icon">
-                <span>Strona główna</span>
+        <aside class="left-aside">
+            <button id="new-button">
+                <img src="./assets/plus.svg" alt="" id="plus">
+                <span>Nowy</span>
             </button>
-            <button>Aktywność</button>
-            <button>Obszary robocze</button>
             <br>
-            <button>Mój dysk</button>
-            <br>
-            <button>Udostępnione</button>
-            <button>Ostatnie</button>
-            <button>Oznaczone gwiazdką</button>
-            <br>
-            <button>Spam</button>
-            <button>Kosz</button>
-            <button>Dane na miejsce</button>
-        </nav>
-    </aside>
+            <nav>
+                <button>
+                    <img src="./assets/home.svg" alt="home icon">
+                    <span>Strona główna</span>
+                </button>
+                <button>
+                    <img src="./assets/bell.svg" alt="bell">
+                    <span>Aktywność</span>
+                </button>
+                <button>
+                    <img src="./assets/dots.svg" alt="obszary robocze">
+                    <span>Obszary robocze</span>
+                </button>
+                <br>
+                <button>
+                    <img src="./assets/drive.svg" alt="moj dysk">
+                    <span>Mój dysks<span/>
+                </button>
+                <br>
+                <button>
+                    <img src="./assets/shared.svg" alt="udostepnione" >
+                    <span>Udostępnione</span>
+                </button>
+                <button>
+                    <img src="./assets/recent.svg" alt="ostatnie" style="transform: scale(1.5);">
+                    <span>Ostatnie</span>
+                </button>
+                <button>
+                    <img src="./assets/star.svg" alt="star">
+                    <span>Oznaczone gwiazdką</span>
+                </button>
+                <br>
+                <button>
+                    <img src="./assets/spam.svg" alt="spam">
+                    <span>Spam</span>
+                </button>
+                <button>
+                    <img src="./assets/trash.svg" alt="trashcan">
+                    <span>Kosz</span>
+                </button>
+                <button>
+                    <img src="./assets/cloud.svg" alt="cloud">
+                    <span>Dane na miejsce</span>
+                </button>
+            </nav>
+        </aside>
+    
+        <main></main>
+    </div>
+
 </body>
 </html>

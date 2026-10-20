@@ -1,27 +1,69 @@
 .left-aside{
     width: 240px;
+    flex-shrink: 0;
 }
 
 .left-aside nav {
     display: flex;
     flex-direction: column;
-    gap: 5px;
     align-items: center;
 }
 
+#new-button {
+    height: 20px;
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 3px 10px -4px #000000;
+    transition: 0.3s;
+}
+#new-button:hover {
+    background-color: rgb(235, 244, 250);
+    transition: 0.3s;
+    box-shadow: 0px 3px 10px -2px #000000;
+
+}
+
+#plus {
+    display: flex;
+    height: 15px;
+    width: 15px;
+}
+
+
 .left-aside > nav > button {
-    display: block;
+    display: flex;
     width: 80%;
     height: 25px;
-    border: 1px solid black;
-    justify-content: center;
     align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-left: 25px;
+    transition: 80ms;
+}
+
+.left-aside > nav > button:hover {
+    background-color: #dbdde9;
+    transition: 80ms;
 }
 
 .left-aside > nav > button > img {
-    height: 15px;
+    height: 20px;
+    width: 20px;
+    justify-self: flex-start;
 }
 
 .left-aside > nav > button > span {
-    text-align: center;
+    justify-self: flex-end;
+    margin-left: 10px;
+    text-align: left;
 }

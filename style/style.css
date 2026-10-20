@@ -8,6 +8,15 @@
 body {
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafd;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.layout {
+    display: flex;
+    flex: 1;
+    min-height: 0;
 }
 
 button {
