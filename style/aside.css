@@ -1,0 +1,27 @@
+.left-aside{
+    width: 240px;
+}
+
+.left-aside nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.left-aside > nav > button {
+    display: block;
+    width: 80%;
+    height: 25px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-aside > nav > button > img {
+    height: 15px;
+}
+
+.left-aside > nav > button > span {
+    text-align: center;
+}

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/aside.css">
     <link rel="icon" href="./assets/icon.png">
     <title>Google drive</title>
 
@@ -23,18 +25,38 @@
         <div class="search-box">
             <img src="./assets/search.svg" alt="search" id="search-icon">
             <input type="text" name="" id="search" placeholder="Search in drive">
-            <img src="./assets/filter.svg" alt="filter" id="filter-icon">
+            <div class="filter-div">
+                <img src="./assets/filter.svg" alt="filter" id="filter-icon">
+            </div>
         </div>
         <div class="header-right-buttons">
-            <img src="./assets/question.svg" alt="support" class="header-r-btn">
-            <img src="./assets/settings2.svg" alt="settings" class="header-r-btn">
+            <div class="header-r-div">
+                <img src="./assets/question.svg" alt="support">
+            </div>
+            <div class="header-r-div">
+                <img src="./assets/settings2.svg" alt="settings">
+            </div>
+            <div class="header-r-div">
+                <img src="./assets/studio.svg" alt="studio">
+            </div>
+            <div class="header-r-div">
+                <img src="./assets/more-apps.svg" alt="Aplikacje Google" id="more-apps">
+            </div>
+        </div>
+        <div class="user-block">
+            <img src="./assets/techni.png" alt="techni logo" id="techni-logo">
+            <img src="./assets/user.png" alt="user" id="user-logo">
         </div>
     </header>
     <aside class="left-aside">
         <button id="new-button">Nowy</button>
+        <br>
 
         <nav>
-            <button>Strona główna</button>
+            <button>
+                <img src="./assets/home.svg" alt="home icon">
+                <span>Strona główna</span>
+            </button>
             <button>Aktywność</button>
             <button>Obszary robocze</button>
             <br>
