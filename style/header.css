@@ -13,7 +13,7 @@
     font-size: 20px;
     font-weight: 500;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 12px;
     padding: 5px;
     width: 240px;
 }
@@ -45,7 +45,7 @@
     height: 30px;
     width: 70%;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 200;
 }
 
@@ -63,6 +63,7 @@
     padding: 5px;
     border-radius: 20px;
     transition: 0.4s;
+    cursor: pointer;
 }
 #search-icon:hover {
     padding: 5px;
@@ -85,6 +86,7 @@
     display: inline-flex;
     justify-content: flex-end;
     margin-left: auto;
+    cursor: pointer;
 }
 
 .filter-div:hover {
@@ -98,6 +100,7 @@
     margin-left: auto;
     margin-right: 20px;
     gap: 5px;
+    cursor: pointer;
 }
 
 .header-r-div {
