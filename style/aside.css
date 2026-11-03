@@ -30,7 +30,6 @@
     background-color: rgb(235, 244, 250);
     transition: 0.3s;
     box-shadow: 0px 3px 10px -2px #000000;
-
 }
 
 #plus {
@@ -54,6 +53,7 @@
 .left-aside > nav > button:hover {
     background-color: #e1e3ec;
 }
+
 
 .left-aside > nav > button > img {
     height: 20px;
