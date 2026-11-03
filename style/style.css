@@ -22,3 +22,7 @@ body {
 button {
     all: unset;
 }
+
+.small {
+    height: 20px;
+}
