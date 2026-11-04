@@ -1,6 +1,8 @@
 const tbody = document.getElementById("tb");
-const count = 7;
-
+const fileNames = ["plik.pdf", "plik.psd", "zdjecie.jpg"]
+const fileIcons = ["file-pdf.png", "file-psd.webp", "file-jpg.png"]
+const hours = ["11:30", "12:00", "15:27"]
+const count = fileNames.length;
 
 let htmlStack = "";
 for (let i = 0; i<count; i++) {
@@ -8,11 +10,11 @@ for (let i = 0; i<count; i++) {
                             <tr class="rows">
                             <th scope="row">
                                 <div class="cntti">
-                                    <img src="./assets/pdf.png" alt="pdf" class="small">
-                                    <span>plik${i+1}.pdf</span>
+                                    <img src="./assets/${fileIcons[i]}" alt="pdf" class="small">
+                                    <span>${fileNames[i]}</span>
                                 </div>
                             </th>
-                            <td>Otwarty przez ciebie • 11:30</td>
+                            <td>Otwarty przez ciebie • ${hours[i]}</td>
                             <td>
                                 <div class="cntti">
                                     <img src="./assets/user.png" alt="user" class="small">
