@@ -1,20 +1,23 @@
 const tbody = document.getElementById("tb");
-const fileNames = ["plik.pdf", "plik.psd", "zdjecie.jpg"]
-const fileIcons = ["file-pdf.png", "file-psd.webp", "file-jpg.png"]
-const hours = ["11:30", "12:00", "15:27"]
-const count = fileNames.length;
+const fileNames = ["plik-pdf.pdf", "photoshop.psd", "zdjecie.jpg", "document.docx"]
+const fileIcons = ["file-pdf.png", "file-psd.webp", "file-jpg.png", "docx.png"]
+const hours = ["11:13", "12:04", "15:27", "08:07", "07:48", "23:32", "17:06"]
+const count = 10;
+
 
 let htmlStack = "";
 for (let i = 0; i<count; i++) {
+    randomFileI = Math.floor(Math.random() * fileNames.length);
+    randomHourI = Math.floor(Math.random() * hours.length)
     htmlStack += `
                             <tr class="rows">
                             <th scope="row">
                                 <div class="cntti">
-                                    <img src="./assets/${fileIcons[i]}" alt="pdf" class="small">
-                                    <span>${fileNames[i]}</span>
+                                    <img src="./assets/${fileIcons[randomFileI]}" alt="pdf" class="small">
+                                    <span>${fileNames[randomFileI]}</span>
                                 </div>
                             </th>
-                            <td>Otwarty przez ciebie • ${hours[i]}</td>
+                            <td>Otwarty przez ciebie • ${hours[randomHourI]}</td>
                             <td>
                                 <div class="cntti">
                                     <img src="./assets/user.png" alt="user" class="small">
